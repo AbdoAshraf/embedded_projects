@@ -1,0 +1,20 @@
+Dependencies for Project 'sys_tick_1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x5B754241)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\systick.c)(0x5B754C1B)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --signed_chars-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (systick.h)(0x5B7542FF)
+I (C:/Keil/TM4C123Valvanoware/inc/tm4c123gh6pm.h)(0x5388606A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (.\main.c)(0x5B8D9156)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --signed_chars-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (pwm.h)(0x5B8D7B82)
+I (C:/Keil/TM4C123Valvanoware/inc/tm4c123gh6pm.h)(0x5388606A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (edge_triger.h)(0x5B8D3FE2)
+I (systick.h)(0x5B7542FF)
+F (.\pwm.c)(0x5B8D7B82)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --signed_chars-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\pwm.o --omf_browse .\pwm.crf --depend .\pwm.d)
+I (pwm.h)(0x5B8D7B82)
+I (C:/Keil/TM4C123Valvanoware/inc/tm4c123gh6pm.h)(0x5388606A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+F (.\edge_triger.c)(0x5B8D74FE)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --signed_chars-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\edge_triger.o --omf_browse .\edge_triger.crf --depend .\edge_triger.d)
+I (edge_triger.h)(0x5B8D3FE2)
+I (C:/Keil/TM4C123Valvanoware/inc/tm4c123gh6pm.h)(0x5388606A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
